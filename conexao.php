@@ -1,9 +1,9 @@
 <?php
 // Configurações de conexão
-$servername = "localhost";  // Ou o endereço do seu servidor MySQL
-$username = "root";         // Usuário do MySQL
-$password = "";             // Senha do MySQL (geralmente vazia no XAMPP)
-$dbname = "barbearia";      // Nome do banco de dados
+$servername = "localhost";  
+$username = "root";       
+$password = "";             
+$dbname = "barbearia";    
 
 // Criando a conexão com o banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
